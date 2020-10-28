@@ -1,0 +1,20 @@
+body{
+    background-color: azure;
+}
+.container{
+
+    position: absolute;
+    background-color: #beb1df;
+    
+}
+.banner{
+    width: 1440px;
+    height: 89px;
+    padding: 10px 10px 10px 10px;
+
+}
+.botton{
+    width: 800px;
+    height:30px;
+    background-color: blueviolet;
+}
