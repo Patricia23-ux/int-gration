@@ -1,20 +1,414 @@
-body{
-    background-color: azure;
-}
-.container{
+body {
+    background-color: white;
 
-    position: absolute;
-    background-color: #beb1df;
-    
 }
-.banner{
+
+.container {
+    position: absolute;
+    background-color: #DAE4FF;
+    width: 1440px;
+    height: 725px;
+
+}
+
+.containerAbout {
+    position: absolute;
+    background-color: white;
+    width: 1440px;
+    height: 900px;
+}
+
+.banner {
     width: 1440px;
     height: 89px;
     padding: 10px 10px 10px 10px;
+    background-color: #F4F7FF;
+    margin-top: 0px;
 
 }
-.botton{
-    width: 800px;
-    height:30px;
-    background-color: blueviolet;
+
+.boton {
+    width: 1440px;
+    height: 58px;
+    background-color: #F4F7FF;
 }
+
+.boton ul {
+    List-style: none;
+    padding: 0px;
+    margin-bottom: 30px;
+
+}
+
+.boton ul li {
+    width: 160px;
+    height: 20px;
+    float: right;
+    
+
+}
+
+.boton ul li a {
+    text-decoration: none;
+    font-family: 'avenir';
+    font-size: 21px;
+    font-weight: regular;
+    color: black;
+    text-align: left;
+}
+
+.boton ul li a:hover {
+    color: #8584C5;
+}
+
+.block_1 {
+
+   float: left;
+    width: 720px;
+    height: 151px;
+    
+
+}
+
+h1 {
+    font-size: 64px;
+    font-family: 'avenir';
+    font-weight: bold;
+    color: #8584C5;
+    margin-left: 30px;
+    padding-top: 150px;
+
+}
+
+
+.block_1 p {
+    margin-left: 5%;
+    font-size: 17px;
+    font-family: 'avenir';
+    color: #727EBD;
+    text-align: left;
+}
+
+ .botton_left {
+    width: 20%;
+    background: #A09EEB;
+    border: none;
+    padding: 10px;
+    color: white;
+    margin: 0px 20px 40px 150px;
+    font-size: 16px;
+    font-family: 'avenir';
+    border-radius: 10px;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 20;
+    box-sizing: 420px;
+
+}
+
+.form-register {
+    width: 350px;
+    height: 450px;
+    background-color: #F9F9F9;
+    padding: 21px;
+    margin-top: 65px;
+border-radius: 10px;
+font-family: 'avenir';
+color: #727EBD;
+float: left;
+position: relative;
+top: 45%;
+margin-left: 10%;
+}
+    
+
+
+
+
+.botonsInferieur {
+    margin-left: 3%;
+    width: 80%;
+    height: 30px;
+
+}
+
+.sincrire {
+    position: absolute;
+    right: 0px;
+  
+
+}
+
+
+
+.form-register h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    font-family: 'avenir';
+    color: #727EBD;
+}
+
+
+
+.controls {
+    width: 70%;
+    background: white;
+    border-radius: 4px;
+    margin-bottom: 70px;
+    border: 1px solid gray;
+    font-family: 'avenir';
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10%;
+    margin-left: 10%;
+}
+
+.form-register p {
+    text-align: right;
+    font-size: 16px;
+    color: #8584C5;
+
+}
+
+.form-register p1 {
+    text-align: left;
+    font-size: 16px;
+    color: #8584C5;
+}
+
+.form-register a {
+    color: #8584C5;
+    margin-left: -9%;
+   
+
+
+}
+
+.form-register .botton_right {
+    width: 50%;
+    background: #A09EEB;
+    border: none;
+    padding: 10px;
+    color: white;
+    margin: 0px 20px 40px 150px;
+    font-size: 16px;
+    font-family: 'avenir';
+    border-radius: 10px;
+    margin-left: 25%;
+}
+
+.block_2 {
+
+    float: left;
+    width: 720px;
+    height: 151px;
+}
+
+h1 {
+    font-size: 64px;
+    font-family: 'avenir';
+    font-weight: bold;
+    color: #8584C5;
+    margin-left: 30px;
+    padding-top: 150px;
+
+}
+
+p {
+    font-size: 15px;
+    font-family: 'avenir';
+    text-align: left;
+    color: #8584C5;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+
+
+
+
+.titreAbout {
+    font-size: 72px;
+    font-family: 'avenir';
+    font-weight: bold;
+    color: #8584C5;
+    text-align: center;
+    
+}
+.photo1  {
+    
+    float: left;
+    
+}
+
+.titre1 {
+    font-size: 43px;
+    font-family: 'avenir';
+    color: #727EBD;   
+}
+
+.texte1 {
+
+    font-size: 17px;
+    font-family: 'avenir';
+    color: #727EBD;
+    margin-right: 35%;    
+}
+
+.Photo2{
+    float: right;
+}
+.titre2 {
+    font-size: 43px;
+    font-family: 'avenir';
+    color: #727EBD; 
+    text-align: right;  
+}
+
+.texte2 {
+
+    font-size: 17px;
+    font-family: 'avenir';
+    color: #727EBD;
+    text-align: right;
+}
+
+
+.titre3 {
+    background-color: #DAE4FF;
+    margin-left: 3%;
+    width: 50%;
+    height: 667%;
+    margin-top: 2.8%;
+    color: #8584C5;
+    font-size: 73px;
+    font-family: 'avenir';
+    text-align: center;
+   
+}
+.p {
+    
+    color: #424A71;
+    font-size: 24px;
+    font-family: 'avenir';
+    text-align: left;
+    
+}
+
+.Photo3 {
+float: right;
+width: 14%;
+height: 16%;
+}
+
+
+
+.titreContact {
+    font-size: 51px;
+    font-family: 'avenir';
+    text-align: left;
+    color: #8584C5;
+
+
+}
+
+
+.containerContacts {
+    position: absolute;
+    background-color: #DAE4FF;
+    width: 1440px;
+    height: 900px;
+
+}
+
+.boutiquephoto {
+    float: left;
+}
+/*
+p {
+    margin-left: 45%;
+    text-align: justify;
+}
+*/
+.photofoot{
+    background-color: white;
+    width: 1440px;
+    height: 900px;
+    margin-top: 14%;
+
+    }
+
+.liste  { 
+    float: right;
+    margin-right: 15%;
+    padding-right: 7%;
+    padding-top: 0%;
+}
+
+a {
+    font-size: 15px;
+    font-family: 'avenir';
+    color: #727EBD;
+}
+
+.rechercher {
+    float: right;
+    margin-right: -1%;
+    padding-right: 7%;
+    padding-top: 7%;
+}
+
+.titreProducts {
+    font-size: 72px;
+    font-family: 'avenir';
+    text-align: center;
+    color: #727EBD;
+    
+}
+
+.fleurs {
+    
+    float: left; 
+    box-sizing: border-box;
+    margin: 0.5;
+    padding: 1em;
+    width: 20%;
+
+}
+
+.botonfleurs{   
+    width: 120%;
+    background: #A09EEB;
+    padding: 11px;
+    color: white;
+    font-size: 16px;
+    font-family: 'avenir';
+    border-radius: 10px;
+    margin-left: 5%;
+}
+
+.fleurs  {
+
+    font-size: 36px;
+    color: #A09EEB;
+    font-family:'avenir';
+
+}
+.fleurs p {
+
+    font-size: 17px;
+    font-family: 'avenir';
+    color: #727EBD;
+    margin-left: 2%;
+  
+}
+
+
+
+
